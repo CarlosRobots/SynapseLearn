@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(95, 0, 0);
+    font-family: sans-serif;
+}
+#fondo div{
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+#fondo {
+    padding: 25px 0;
+    text-align: center;
+    /* width: 400px; */
+    margin: 0 auto;
+    height: 950px;
+    background-image: url('imagenes/logo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 2rem;  */
+    /* background-color: black; */
+}
+a.logo-de-instagram {
+    display: inline-block;
+    padding: 10px;
+    /* border: 1px solid #e8e8e8; */
+    /* border-radius: 50%; */
+}
+
+a.logo-de-instagram img {
+    width: 40px;
+    height: 40px;
+}
+a.logo-de-instagram img:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0,0, 0.3);
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.2rem;
+}
+.menu ul li a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover {
+    color: cornflowerblue;
+}
+.Titulo {
+   
+        background-color:rgb(206, 171, 103);
+        padding: 1.5rem 0.5rem;    
+}
+div h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+section {
+    height: 100%;
+    background-color: black;
+}
+
+
+/*.toogle {
+    margin:10px 2px 10px 5px;/*arriba(T),derecha(R),abajo(B),izquierda(L) hay que modificar con la imagen despues
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color:#f1f1f1 ;
+    border-radius: 3px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.toogle_line, .toogle_line::after, .toogle_line::before {
+    position: relative;
+    width: 90%;
+    height: 0.2rem;
+    background-color: #555;
+    border-radius: 3px;
+    transition: background 0.5s, top 0.5s, transform 0.5s;
+}
+.toogle_line::after, .toogle_line::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 5px;
+}
+.toogle_line::before {
+    top: -5px;
+}
+.active .toogle_line {
+    background: transparent;
+}
+.active .toogle_line::after {
+    top: 0;
+    transform: rotate(45deg);
+}
+.active .toogle_line::before {
+    top: 0;
+    transform: rotate(-45deg);
+}
+ Estilos para el menú
+
+.menu {
+    display: none; Por defecto, oculta el menú 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #eee;
+    transition: left 0.3s;
+}
+
+.show .menu {
+    left: 0;  Muestra el menú cuando tiene la clase 'show' 
+} 
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 60px 0;
+}
+
+.menu li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+ */
