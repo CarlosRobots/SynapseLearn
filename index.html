@@ -119,7 +119,7 @@
             color: #666666; /* Gris claro */
         }
         .download-btn {
-            margin-top: 3rem; 
+            margin-top: 1rem; 
             font-size: 1.1rem;
             padding: 0.75rem 1.5rem;
             background-color: #0055a5;
@@ -280,10 +280,14 @@
     <!-- Main Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003366;">
         <div class="container-fluid">
-            <!-- Eliminamos el ícono de home -->
+            <a class="navbar-brand" href="#cabezon">
+                <img src="home.png" alt="Inicio" style="width: 45px; height: 45px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- Cambiamos 'ms-auto' por 'me-auto' para alinear el menú a la izquierda -->
-                <ul class="navbar-nav me-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#intro">¿Quiénes Somos?</a>
                     </li>
