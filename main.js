@@ -1,6 +1,6 @@
 // Selección de elementos del DOM
-const toggle = document.querySelector("navbar-toggler");
-const menu = document.querySelector("navbarNav");
+const toggle = document.querySelector(".navbar-toggler");
+const menu = document.querySelector("#navbar-Nav");
 
 // Función para alternar clases activas en el botón y el menú
 toggle.addEventListener("click", () => {
