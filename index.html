@@ -93,6 +93,23 @@
             color: #555;
             margin-bottom: 2rem;
         }
+        .download-btn {
+            margin-top: 3rem; 
+            font-size: 1.1rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #0055a5;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #003366;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
         .mission-vision .row {
             padding: auto;
             display: flex;
@@ -118,23 +135,7 @@
             color: #666666; /* Gris claro */
         }
 
-        .download-btn {
-            margin-top: 2rem; 
-            font-size: 1.1rem;
-            padding: 0.75rem 1.5rem;
-            background-color: #0055a5;
-            color: #fff;
-            border: none;
-            border-radius: 8px;
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-        }
-
-        .download-btn:hover {
-            background-color: #003366;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-        }
-
+        
         /* Features Section */
         .feature {
             background: #ffffff;
@@ -279,14 +280,10 @@
     <!-- Main Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003366;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#cabezon">
-                <img src="home.png" alt="Inicio" style="width: 45px; height: 45px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- Eliminamos el ícono de home -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <!-- Cambiamos 'ms-auto' por 'me-auto' para alinear el menú a la izquierda -->
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#intro">¿Quiénes Somos?</a>
                     </li>
@@ -304,82 +301,81 @@
         </div>
     </nav>
 
-
-    <!-- Introduction Section -->
-<section id="intro" class="container my-5">
-    <div class="introduction text-center">
-        <h2>Bienvenido a SynapseLearn</h2>
-        <p>SynapseLearn es una innovadora plataforma digital diseñada para estudiantes universitarios que enfrentan desafíos en la investigación científica. Combina tres funcionalidades clave: <strong>un sistema de intercambio de material académico</strong>, <strong>un foro para resolver dudas y fomentar colaboración académica</strong>, y <strong>un asistente virtual impulsado por IA</strong> entrenado específicamente en metodologías de investigación científica.</p>
-        <div class="mission-vision">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>Misión</h3>
-                    <p>Facilitar el acceso al conocimiento y promover la colaboración académica mediante herramientas tecnológicas innovadoras.</p>
+        <!-- Introduction Section -->
+    <section id="intro" class="container my-5">
+        <div class="introduction text-center">
+            <h2>Bienvenido a SynapseLearn</h2>
+            <p>SynapseLearn es una innovadora plataforma digital diseñada para estudiantes universitarios que enfrentan desafíos en la investigación científica. Combina tres funcionalidades clave: <strong>un sistema de intercambio de material académico</strong>, <strong>un foro para resolver dudas y fomentar colaboración académica</strong>, y <strong>un asistente virtual impulsado por IA</strong> entrenado específicamente en metodologías de investigación científica.</p>
+            <div class="mission-vision">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Misión</h3>
+                        <p>Facilitar el acceso al conocimiento y promover la colaboración académica mediante herramientas tecnológicas innovadoras.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Visión</h3>
+                        <p>Convertirnos en la plataforma de referencia para estudiantes y académicos en el ámbito de la investigación científica.</p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h3>Visión</h3>
-                    <p>Convertirnos en la plataforma de referencia para estudiantes y académicos en el ámbito de la investigación científica.</p>
+            </div>
+            <a class="download-btn mt-4" href="#">Descarga SynapseLearn</a>
+        </div>
+    </section>
+
+
+        <!-- Features Section -->
+    <section id="Servicios" class="container my-5">
+        <div class="text-center mb-5">
+            <h2>Nuestros Servicios</h2>
+            <p>Descubre cómo SynapseLearn puede potenciar tu aprendizaje y tus investigaciones académicas.</p>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="feature p-4 shadow rounded">
+                    <h3>📚 Repositorio de Papers</h3>
+                    <p>Accede a una amplia colección de recursos académicos cuidadosamente organizados por temas, áreas de estudio y niveles académicos. Ideal para estudiantes, investigadores y profesionales.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature p-4 shadow rounded">
+                    <h3>💬 Foro Académico</h3>
+                    <p>Conecta con una comunidad colaborativa para plantear y responder preguntas sobre investigaciones, citas bibliográficas, metodologías y más. Categorías específicas para facilitar la navegación.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature p-4 shadow rounded">
+                    <h3>🤖 Chatbot</h3>
+                    <p>Un asistente basado en inteligencia artificial que te ayudará a buscar papers, generar citas bibliográficas y resolver dudas académicas con rapidez y precisión.</p>
                 </div>
             </div>
         </div>
-        <a class="download-btn mt-4" href="#">Descarga SynapseLearn</a>
-    </div>
-</section>
+    </section>
 
-
-    <!-- Features Section -->
-<section id="Servicios" class="container my-5">
-    <div class="text-center mb-5">
-        <h2>Nuestros Servicios</h2>
-        <p>Descubre cómo SynapseLearn puede potenciar tu aprendizaje y tus investigaciones académicas.</p>
-    </div>
-    <div class="row text-center">
-        <div class="col-md-4">
-            <div class="feature p-4 shadow rounded">
-                <h3>📚 Repositorio de Papers</h3>
-                <p>Accede a una amplia colección de recursos académicos cuidadosamente organizados por temas, áreas de estudio y niveles académicos. Ideal para estudiantes, investigadores y profesionales.</p>
-            </div>
+        <!-- Social Section -->
+    <section id="RRSS" class="social-section container my-5">
+        <h2 class="social-title">¡Contáctanos!</h2>
+        <p class="social-description">
+            ¿Tienes dudas o necesitas más información? Escríbenos a nuestro correo: 
+            <a href="mailto:synapselearnia@gmail.com" class="email-link">synapselearnia@gmail.com</a>
+        </p>
+        <p class="social-follow">Síguenos en nuestras redes sociales:</p>
+        <div class="social-icons">
+            <a 
+                target="_blank" 
+                class="social-icon instagram" 
+                href="https://www.instagram.com/synapselearn/?hl=es" 
+                aria-label="Instagram">
+                <img src="logo_instagram.png" alt="Síguenos en Instagram">
+            </a>
+            <a 
+                target="_blank" 
+                class="social-icon youtube" 
+                href="https://www.youtube.com/channel/UCCprRTmidIcpnjrDZR0KkJg" 
+                aria-label="YouTube">
+                <img src="logo_youtube.png" alt="Suscríbete a nuestro canal de YouTube">
+            </a>
         </div>
-        <div class="col-md-4">
-            <div class="feature p-4 shadow rounded">
-                <h3>💬 Foro Académico</h3>
-                <p>Conecta con una comunidad colaborativa para plantear y responder preguntas sobre investigaciones, citas bibliográficas, metodologías y más. Categorías específicas para facilitar la navegación.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="feature p-4 shadow rounded">
-                <h3>🤖 Chatbot</h3>
-                <p>Próximamente: un asistente basado en inteligencia artificial que te ayudará a buscar papers, generar citas bibliográficas y resolver dudas académicas con rapidez y precisión.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <!-- Social Section -->
-<section id="RRSS" class="social-section container my-5">
-    <h2 class="social-title">¡Contáctanos!</h2>
-    <p class="social-description">
-        ¿Tienes dudas o necesitas más información? Escríbenos a nuestro correo: 
-        <a href="mailto:synapselearnia@gmail.com" class="email-link">synapselearnia@gmail.com</a>
-    </p>
-    <p class="social-follow">Síguenos en nuestras redes sociales:</p>
-    <div class="social-icons">
-        <a 
-            target="_blank" 
-            class="social-icon instagram" 
-            href="https://www.instagram.com/synapselearn/?hl=es" 
-            aria-label="Instagram">
-            <img src="logo_instagram.png" alt="Síguenos en Instagram">
-        </a>
-        <a 
-            target="_blank" 
-            class="social-icon youtube" 
-            href="https://www.youtube.com/channel/UCCprRTmidIcpnjrDZR0KkJg" 
-            aria-label="YouTube">
-            <img src="logo_youtube.png" alt="Suscríbete a nuestro canal de YouTube">
-        </a>
-    </div>
-</section>
+    </section>
 
     <!-- Footer Section -->
     <footer>
@@ -389,5 +385,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
    
