@@ -45,16 +45,16 @@
         }
     
         /* Navigation */
-        #menu {
+        #navbar-Nav {
             transform: translateX(-100%); /* Oculto fuera de la vista */
             transition: transform 0.3s ease-in-out;
         }
         
-        #menu.show {
+       #navbar-Nav.show {
             transform: translateX(0); /* Muestra el menú */
         }
         
-        #toggle.active {
+        .navbar-toggler.active {
             /* Cambia la apariencia del botón (opcional, como cruz) */
             transform: rotate(90deg);
             transition: transform 0.2s ease-in-out;
@@ -405,6 +405,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
    
