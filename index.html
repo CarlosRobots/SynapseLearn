@@ -55,6 +55,21 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
             border-bottom: 2px solid #003366;
         }
+        #menu {
+            transform: translateX(-100%); /* Oculto fuera de la vista */
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        #menu.show {
+            transform: translateX(0); /* Muestra el menú */
+        }
+        
+        #toggle.active {
+            /* Cambia la apariencia del botón (opcional, como cruz) */
+            transform: rotate(90deg);
+            transition: transform 0.2s ease-in-out;
+        }
+
 
         .navbar-nav .nav-link {
             color: #ffffff;
